@@ -15,11 +15,13 @@ grey bg: #f4f4f4
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     color: #000;
     font-family: 'Bahianita', 'Arial', sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 /*clear float after a element*/
@@ -531,7 +533,7 @@ cite img {
 }
 
 .contact-form {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     letter-spacing: 1px;
 }
