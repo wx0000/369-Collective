@@ -410,7 +410,7 @@ header {
 }
 
 /* /////////////////////////////////// */
-/* ///////////////About ut//////////// */
+/* ///////////////About us//////////// */
 /* /////////////////////////////////// */
 
 .about-us {
@@ -471,7 +471,7 @@ cite img {
 }
 
 /* /////////////////////////////////// */
-/* ///////////////About us//////////// */
+/* ///////////////Merch/////////////// */
 /* /////////////////////////////////// */
 
 .plans {
@@ -524,16 +524,30 @@ cite img {
     padding: 5px 0;
 }
 
+.plan-box img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    border: 0.1px solid #d4141b;
+}
+
+.plan-box img:hover {
+    border: 0.1px solid #d4141b;
+    opacity: 1;
+}
+
 /* /////////////////////////////////// */
 /* ///////////////Form//////////////// */
 /* /////////////////////////////////// */
 
 .form {
-    background-color:  #f4f4f4;
+    background-color: #f4f4f4;
 }
 
 .contact-form {
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     letter-spacing: 1px;
 }
@@ -550,12 +564,12 @@ textarea {
 
 textarea {
     height: 200px;
-    width: 500px;
 }
 
 *:focus {
     outline: none;
 }
+
 
 /* /////////////////////////////////// */
 /* ///////////////Footer////////////// */

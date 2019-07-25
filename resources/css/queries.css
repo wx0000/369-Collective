@@ -17,9 +17,6 @@
         width: 90%;
     }
 
-    .contact-form {
-        margin-left: 2%;
-    }
 
 }
 
@@ -80,9 +77,7 @@
         width: 80%;
     }
 
-    textarea {
-        width: 500px;
-    }
+
 }
 
 /* Small smartphones to small tablets:481px to 767px */
@@ -155,12 +150,6 @@
         font-size: 120%;
     }
 
-    textarea {
-        height: 200px;
-        width: 300px;
-    }
-
-
     .footer-space {
         margin-bottom: 0;
     }
@@ -189,8 +178,5 @@
         width: 100%;
     }
 
-    textarea {
-        height: 250px;
-        width: 250px;
-    }
+
 }
