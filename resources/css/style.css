@@ -120,6 +120,7 @@ h3 {
 .box p {
     font-size: 90%;
     line-height: 145%;
+    letter-spacing: 1px;
 }
 
 .base p {
@@ -212,15 +213,6 @@ input[type=submit]:active {
 .btn-spot:active {
     color: #000;
 }
-
-/* /////////////////////////////////// */
-/* ///////////////Features//////////// */
-/* /////////////////////////////////// */
-
-.features .long-copy {
-    margin-bottom: 50px;
-}
-
 
 /* /////////////////////////////////// */
 /* ///////////////Find us///////////// */
@@ -387,29 +379,6 @@ header {
 }
 
 /* /////////////////////////////////// */
-/* ///////////////Flashes///////////// */
-/* /////////////////////////////////// */
-
-.box img {
-    height: auto;
-    width: 100%;
-    margin-bottom: 15px;
-    opacity: 0.8;
-    transition: opacity 0.5s;
-    border: 0.1px solid #d4141b;
-}
-
-.merch-feature {
-    margin-bottom: 5px;
-    margin-top: 12px;
-    letter-spacing: 1px;
-}
-
-.shop {
-    /*    background-color: #f4f4f4;*/
-}
-
-/* /////////////////////////////////// */
 /* ///////////////About us//////////// */
 /* /////////////////////////////////// */
 
@@ -474,57 +443,43 @@ cite img {
 /* ///////////////Merch/////////////// */
 /* /////////////////////////////////// */
 
-.plans {
+.section-merch {
     background-color: #f4f4f4;
 }
 
-.plan-box {
+.merch-box {
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
     margin-left: 5%
 }
 
-.plan-box div {
+.merch-box div {
     padding: 15px;
     border-bottom: 1px solid #e8e8e8;
 }
 
-.plan-box div:last-child {
+.merch-box div:last-child {
     text-align: center;
     border: 0;
 }
 
-.plan-box div:first-child {
+.merch-box div:first-child {
     background-color: #fcfcfc;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     box-shadow: 0 2px 2px #efefef;
 }
 
-.plan-price {
-    font-size: 300%;
-    margin-bottom: 10px;
-    color: #d4141b;
-}
-
-.plan-price span {
-    font-size: 50%;
-}
-
-.plan-price-meal {
-    font-size: 135%;
-}
-
-.plan-box ul {
+.merch-box ul {
     list-style: none;
 }
 
-.plan-box li {
+.merch-box li {
     padding: 5px 0;
 }
 
-.plan-box img {
+.merch-box img {
     height: auto;
     width: 100%;
     margin-bottom: 15px;
@@ -533,7 +488,7 @@ cite img {
     border: 0.1px solid #d4141b;
 }
 
-.plan-box img:hover {
+.merch-box img:hover {
     border: 0.1px solid #d4141b;
     opacity: 1;
 }
