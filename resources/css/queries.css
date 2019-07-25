@@ -189,6 +189,10 @@
         margin-left: 40%;
     }
 
+    
+    .btn-app-ig img {
+        display: none;
+    }
 
 }
 
