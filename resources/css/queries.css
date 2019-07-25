@@ -183,6 +183,11 @@
         float: none;
         word-spacing: 20px;
     }
+    
+    .box h3,
+    .icon-big {
+        margin-left: 40%;
+    }
 
 
 }
