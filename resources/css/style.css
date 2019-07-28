@@ -24,6 +24,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*clear float after a element*/
 .clearfix {
     zoom: 1
@@ -115,6 +119,7 @@ h3 {
 
 .long-copy {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .box p {
@@ -295,14 +300,28 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.title-text-box h1 {
+    text-shadow: #d4141b 2px 3px;
+}
+
 .logo {
     height: 100px;
     width: auto;
     float: left;
-    border-radius: 300px;
     margin-top: 10px;
+    border-radius: 100px;
 }
 
+.logo-scroll {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    border-radius: 100px;
+    margin: 5px 0;
+}
+
+/* Main navigation */
 .main-nav {
     float: right;
     list-style: none;
@@ -328,6 +347,53 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #d4141b;
+}
+
+/* Mobile navigation */
+
+.mobile-nav-ico {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-ico {
+    font-size: 200%;
+    color: #d4141b;
+    text-shadow: #d4141b 2px 3px;
+}
+
+
+/* Sticky navigation */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 1px #efefef;
+    z-index: 9999;
+    marg
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 20px 0;
+    color: #555;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-scroll {
+    display: block;
 }
 
 /* /////////////////////////////////// */
@@ -578,3 +644,33 @@ footer p {
     text-align: center;
     font-size: 90%;
 }
+
+/* /////////////////////////////////// */
+/* ////////////Animations///////////// */
+/* /////////////////////////////////// */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-4 {
+    opacity: 0;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-4.animated {
+    opacity: 1;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
