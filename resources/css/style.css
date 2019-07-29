@@ -301,7 +301,11 @@ header {
 }
 
 .title-text-box h1 {
+<<<<<<< HEAD
     text-shadow: #d4141b 1px 2px;
+=======
+    text-shadow: #d4141b 2px 3px;
+>>>>>>> 5478aa97c46acef4d1441bf6a4555469d1b29db2
 }
 
 .logo {
@@ -666,3 +670,14 @@ footer p {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+>>>>>>> 5478aa97c46acef4d1441bf6a4555469d1b29db2

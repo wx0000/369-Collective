@@ -33,10 +33,13 @@
         transform: scale(1.06);
     }
 
+<<<<<<< HEAD
     .title-text-box {
         width: 75%;
     }
 
+=======
+>>>>>>> 5478aa97c46acef4d1441bf6a4555469d1b29db2
     body {
         font-size: 18px;
     }
@@ -127,7 +130,11 @@
         float: left;
         margin-top: 8px;
         margin-left: 25px;
+<<<<<<< HEAD
         padding: 5px 0;
+=======
+        padding-top: 5px 0;
+>>>>>>> 5478aa97c46acef4d1441bf6a4555469d1b29db2
     }
 
     .main-nav {
@@ -137,7 +144,11 @@
     .main-nav li {
         display: block;
         margin: 0;
+<<<<<<< HEAD
         font-size: 110%;
+=======
+        font-size: 130%;
+>>>>>>> 5478aa97c46acef4d1441bf6a4555469d1b29db2
     }
 
     .main-nav a:link,
@@ -224,12 +235,21 @@
     .icon-big,
     .box h3 {
         margin-left: 45%;
+<<<<<<< HEAD
     }
 
     .box p {
         text-align: center;
     }
 
+=======
+    }
+    
+    .box p {
+        text-align: center;
+    }
+
+>>>>>>> 5478aa97c46acef4d1441bf6a4555469d1b29db2
 
     .btn-app-ig img {
         display: none;
@@ -244,7 +264,10 @@
 
     .sticky .main-nav {
         margin-top: 10px;
+<<<<<<< HEAD
         margin-left: 10px;
+=======
+>>>>>>> 5478aa97c46acef4d1441bf6a4555469d1b29db2
     }
 
     .sticky .mobile-ico {

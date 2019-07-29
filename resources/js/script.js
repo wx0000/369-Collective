@@ -51,6 +51,7 @@ $(document).ready(function () {
     }, {
         offset: '100%'
     });
+<<<<<<< HEAD
 
 
     /*Mobile navigation*/
@@ -92,5 +93,17 @@ $('.with-caption').magnificPopup({
 			enabled: true
 		}
 	});
+=======
+    
+    
+    /*Mobile navigation*/
+    
+    $('.mobile-nav-ico').click(function(){
+        const nav = $('.main-nav');
+        const icon = $('.mobile-nav-ico')
+        nav.slideToggle(200);
+    })
+
+>>>>>>> 5478aa97c46acef4d1441bf6a4555469d1b29db2
 
 });
