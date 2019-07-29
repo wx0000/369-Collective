@@ -65,7 +65,7 @@
     .base {
         margin-bottom: 40px;
     }
-    
+
     .base p {
         text-align: center;
     }
@@ -178,6 +178,11 @@
     .find-box:first-child {
         text-align: center;
     }
+
+    .find-box:last-child {
+        margin-left: -12px;
+    }
+
 
     .on-road {
         width: 60%;
