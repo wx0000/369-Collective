@@ -95,8 +95,8 @@
         width: 80%;
     }
 
-    blockquote {
-        text-align: center;
+    .quote {
+        margin-left: 130px;
     }
 
 }
